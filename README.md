@@ -1,86 +1,110 @@
-<h1 align="center">ミ彡 SFW ANIME BOT 彡ミ</h1><p align="center">
-  <img src="https://img.shields.io/badge/Powered%20By-python--telegram--bot-blue?style=flat-square">
-  <img src="https://img.shields.io/github/license/Akash8t2/SFW-ANIME?style=flat-square">
-  <img src="https://img.shields.io/github/repo-size/Akash8t2/SFW-ANIME?style=flat-square">
-  <img src="https://img.shields.io/badge/MongoDB-Enabled-brightgreen?style=flat-square">
-</p><p align="center">
-  <b>A premium-style Telegram bot to explore, search and stream anime directly within Telegram.</b><br>
-  <i>Developed with love by <a href="https://t.me/SFW_Community_Official">SFW Community</a></i>
-</p>
 ---
 
-🚀 Features
+## 🚀 Features
 
-Fetch latest anime releases with full details
-
-Includes language, rating, type, release date, and category
-
-Inline buttons to browse from new to old
-
-Search anime using /search <name>
-
-View anime episodes list with direct access
-
-Owner-only broadcast system
-
-MongoDB-based user logs
-
-Fully Heroku Deployable and lightweight
-
-
+* Fetch latest **anime releases** with full details
+* Includes **language**, **rating**, **type**, **release date**, and **category**
+* Inline buttons to browse from **new to old**
+* Search anime using `/search <name>`
+* View anime **episodes list** with direct access
+* Owner-only **broadcast system**
+* MongoDB-based **user logs**
+* Fully **Heroku Deployable** and lightweight
 
 ---
 
-🛠️ Setup & Deployment
+## 🛠️ Setup & Deployment
 
-1. Clone the Repository
+### 1. Clone the Repository
 
+```bash
 git clone https://github.com/Akash8t2/SFW-ANIME
 cd SFW-ANIME
+```
 
-2. Configure Environment Variables
+### 2. Configure Environment Variables
 
-Create a .env file or set these in Heroku Config Vars:
+Create a `.env` file or set these in Heroku Config Vars:
 
+```env
 TELEGRAM_TOKEN=your_bot_token
 OWNER_ID=your_telegram_id
 SUPPORT_CHAT=@YourSupportGroup
 MONGO_DB_URI=your_mongodb_uri
+```
 
-3. Install Requirements
+### 3. Install Requirements
 
+```bash
 pip install -r requirements.txt
+```
 
-4. Run the Bot Locally
+### 4. Run the Bot Locally
 
+```bash
 python main.py
+```
 
-5. Deploy to Heroku
+### ### ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 
-Click the button below to deploy easily on Heroku:
+\<p align="center">
 
+  \<a href="[https://heroku.com/deploy?template=https://github.com/Akash8t2/SFW-ANIME](https://heroku.com/deploy?template=https://github.com/Akash8t2/SFW-ANIME)">
 
+    \<div style="text-align: center;">
 
+      \<img src="[https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg](https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg)" alt="Heroku" width="20" style="vertical-align: middle; margin-right: 8px; filter: drop-shadow(0 1px 1px rgba(0,0,0,0.2));">
+
+      \<span style="
+
+        background: linear-gradient(135deg, #6762A6 0%, #B86FAD 100%);
+
+        padding: 8px 20px;
+
+        border-radius: 25px;
+
+        color: white;
+
+        font-family: 'Segoe UI', sans-serif;
+
+        font-weight: 600;
+
+        font-size: 14px;
+
+        letter-spacing: 0.5px;
+
+        text-decoration: none;
+
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+        display: inline-flex;
+
+        align-items: center;
+
+        transition: all 0.3s ease;
+
+      " onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 6px 8px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='0 4px 6px rgba(0,0,0,0.1)'">
+
+        DEPLOY NOW
+
+      \</span>
+
+    \</div>
+
+  \</a>
+
+\</p>
 
 ---
 
-👨‍💻 Developer
+## 👨‍💻 Developer
 
-Name: AkashXVibes
-
-Telegram Group: ミ【 SFW 】COMMUNITY 彡
-
-Bot Username: @SFW_ANIME_BOT
-
-
+* **Name:** AkashXVibes
+* **Telegram Group:** ミ【 SFW 】COMMUNITY 彡
+* **Bot Username:** @SFW\_ANIME\_BOT
 
 ---
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
-
-<p align="center"><b>Made with ❤️ by ミ【 SFW 】COMMUNITY 彡</b></p>
-
-README file updated successfully with a premium-style layout and all your requested details. Let me know if you'd like a deploy button image hosted or any other customization!
-
